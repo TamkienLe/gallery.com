@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link( href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous")
+        link(href="/styles.css", rel="stylesheet")
+        title Category
+    body 
+
+        div(class ="logout")
+            form(action="/logout", method="POST")
+                input(type="submit", value="Logout")
+        h1 #{category}
+
+        each artist in artists
+            h3 
+                a(href="/artists/" + artist._id) #{artist.artist} (Click to View)
+            br
+            br
+
