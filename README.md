@@ -1,6 +1,7 @@
 # gallery.com 	:paintbrush:
 
 Instructions
+
 1.install zip and extract
 
 2.go to directory of server.js in terminal
