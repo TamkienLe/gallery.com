@@ -1,5 +1,7 @@
 # gallery.com 	:paintbrush:
 
+Description: Mock social media app focused on implementing back-end
+
 Instructions
 
 1.install zip and extract
